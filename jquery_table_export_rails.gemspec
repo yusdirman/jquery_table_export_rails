@@ -13,8 +13,8 @@ Gem::Specification.new do |spec|
     spec.metadata['allowed_push_host'] = ""
   end
 
-  spec.summary       = %q{Implementation of Jquery TableExport Plugin for Rails}
-  spec.description   = %q{This gem will implement Jquery TableExport Plugin into your assets}
+  spec.summary       = %q{Integrates Jquery TableExport Plugin for Rails}
+  spec.description   = %q{This gem will integrates Jquery TableExport Plugin by Giri Raj into your Rails app}
   spec.homepage      = "https://github.com/yusdirman/jquery_table_export_rails"
   spec.license       = "MIT"
 

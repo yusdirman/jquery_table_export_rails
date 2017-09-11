@@ -1,15 +1,13 @@
 # JqueryTableExportRails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jquery_table_export_rails`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+ A ruby gem that uses the Rails asset pipeline to include the jQuery tableExport plugin by Giri Raj kayalshri (https://github.com/kayalshri/tableExport.jquery.plugin)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jquery_table_export_rails', git: "https://github.com/yusdirman/jquery_table_export_rails.git"
+gem 'jquery_table_export_rails'
 ```
 
 And then execute:
@@ -20,15 +18,23 @@ Or install it yourself as:
 
     $ gem install jquery_table_export_rails
 
+## Requirements
+
+> NOTE: this is a jQuery plugin so you will also need the jquery-rails gem (it is not added by default starting from Rails 5.1):
+
+* https://github.com/rails/jquery-rails    
+
 ## Usage
 
-TODO: Write usage instructions here
+You will need to add this line into your application.js
 
-## Development
+```
+  //= require jquery_table_export
+```
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release` to create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+For further documentation, please refer to
+* https://github.com/kayalshri/tableExport.jquery.plugin
+* https://github.com/clarketm/TableExport
 
 ## Contributing
 
@@ -37,3 +43,11 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## Thanks
+
+* Thanks to javascript developers
+* Thanks to jquery developers
+* Thanks to rubygem developers
+* Thanks to rails developers
+* Thanks to [Giri Raj](https://github.com/kayalshri) for the tableexport jquery plugin
