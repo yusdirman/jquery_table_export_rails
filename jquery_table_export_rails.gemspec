@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Implementation of Jquery TableExport Plugin for Rails}
   spec.description   = %q{This gem will implement Jquery TableExport Plugin into your assets}
-  spec.homepage      = "github/yusdirman/jquery_table_export_rails"
+  spec.homepage      = "https://github.com/yusdirman/jquery_table_export_rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
