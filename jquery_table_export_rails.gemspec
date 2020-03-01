@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["yusdirman@gmail.com"]
 
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = ""
+    spec.metadata['allowed_push_host'] = "https://rubygems.org"
   end
 
   spec.summary       = %q{Integrates Jquery TableExport Plugin for Rails}
@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.8"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rake", ">= 10.3.3"
 end
